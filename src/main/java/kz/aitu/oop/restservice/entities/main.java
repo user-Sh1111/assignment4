@@ -34,12 +34,14 @@ public class main {
         artGallery.listOfArtworks();
 
 
+
         Artist a1 = new Artist(1, "Shino", 2006, "Kazakhstan");
         Artist a2 = new Artist(1, "Shino", 2006, "Kazakhstan");
 
         System.out.println("HashCode a1: " + a1.hashCode());
         System.out.println("HashCode a2: " + a2.hashCode());
         System.out.println("a1 equals a2: " + a1.equals(a2));
+
 
 
 

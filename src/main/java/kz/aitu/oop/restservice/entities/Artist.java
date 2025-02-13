@@ -1,6 +1,8 @@
 package kz.aitu.oop.restservice.entities;
 
+
 import java.util.Objects;
+
 
 public class Artist {
     private int id;
@@ -39,6 +41,7 @@ public class Artist {
                 '}';
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(id, name, birthYear, nationality);
@@ -54,4 +57,5 @@ public class Artist {
                 Objects.equals(name, artist.name) &&
                 Objects.equals(nationality, artist.nationality);
     }
+
 }
